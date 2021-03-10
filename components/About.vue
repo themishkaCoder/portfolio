@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto py-36">
-    <h2 class="text-lg text-purple pb-5">About me</h2>
-    <p class="text-2xl text-white font-bold">
+  <div class="container mx-auto py-36 px-4">
+    <h2 data-aos="zoom-in" class="text-lg text-purple pb-5">About me</h2>
+    <p data-aos="zoom-in" class="text-2xl text-white font-bold">
       I'm Junior Frontend Developer, involved in web programming for a 3 years
     </p>
-    <p class="text-lg text-white pt-14">
+    <p data-aos="zoom-in" class="text-lg text-white pt-14">
       My name is Mikhail, student. I'm studying in distance learning
       institution, as result i have a lot of time for work. Studied in computer
       academy for 4 years and worked with mentor. I've been creating web pages
@@ -13,79 +13,67 @@
       It would be good to meet and work with new people for me
     </p>
 
-    <div class="grid grid-cols-2 grid-rows-2 gap-12 pt-14">
-      <div class="flex flex-col">
+    <div class="grid grid-cols-1 sm:grid-cols-2 grid-rows-1 sm:grid-rows-2 gap-12 pt-14">
+      <div data-aos="fade-left" class="flex flex-col">
         <div class="service-title flex flex-row items-center">
           <div
             class="number w-14 h-14 rounded-full flex items-center justify-center"
           >
             <p class="text-white text-2xl font-bold">1</p>
           </div>
-          <p class="text-white text-xl font-bold pl-4">Site creating</p>
+          <p class="text-white text-xl font-bold pl-4">Develop HTML code</p>
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-            repudiandae distinctio, tempore sunt in qui magnam aut, voluptas
-            commodi asperiores, nostrum explicabo facilis! Velit sapiente aut
-            rem odit, laboriosam praesentium?
+            Easily create HTML pages using Flexbox, Grid, Bootstrap.
           </p>
         </div>
       </div>
 
-      <div class="flex flex-col">
+      <div data-aos="fade-right" class="flex flex-col">
         <div class="service-title flex flex-row items-center">
           <div
             class="number w-14 h-14 rounded-full flex items-center justify-center"
           >
             <p class="text-white text-2xl font-bold">2</p>
           </div>
-          <p class="text-white text-xl font-bold pl-4">Site creating</p>
+          <p class="text-white text-xl font-bold pl-4">Web application</p>
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-            repudiandae distinctio, tempore sunt in qui magnam aut, voluptas
-            commodi asperiores, nostrum explicabo facilis! Velit sapiente aut
-            rem odit, laboriosam praesentium?
+            I'll create web application with either functionality, that you need.
           </p>
         </div>
       </div>
 
-      <div class="flex flex-col">
+      <div data-aos="fade-left" class="flex flex-col">
         <div class="service-title flex flex-row items-center">
           <div
             class="number w-14 h-14 rounded-full flex items-center justify-center"
           >
             <p class="text-white text-2xl font-bold">3</p>
           </div>
-          <p class="text-white text-xl font-bold pl-4">Site creating</p>
+          <p class="text-white text-xl font-bold pl-4">Fix bugs in code</p>
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-            repudiandae distinctio, tempore sunt in qui magnam aut, voluptas
-            commodi asperiores, nostrum explicabo facilis! Velit sapiente aut
-            rem odit, laboriosam praesentium?
+            Provide a service where i, in finished project, fix errors in layout or bugs in code.
           </p>
         </div>
       </div>
 
-      <div class="flex flex-col">
+      <div data-aos="fade-right" class="flex flex-col">
         <div class="service-title flex flex-row items-center">
           <div
             class="number w-14 h-14 rounded-full flex items-center justify-center"
           >
             <p class="text-white text-2xl font-bold">4</p>
           </div>
-          <p class="text-white text-xl font-bold pl-4">Site creating</p>
+          <p class="text-white text-xl font-bold pl-4">Design</p>
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
-            repudiandae distinctio, tempore sunt in qui magnam aut, voluptas
-            commodi asperiores, nostrum explicabo facilis! Velit sapiente aut
-            rem odit, laboriosam praesentium?
+            If you don't have design for your site, i'll help you to find it.
           </p>
         </div>
       </div>

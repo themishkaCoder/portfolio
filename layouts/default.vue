@@ -7,5 +7,6 @@
 <style>
 body{
   background-color: #121212;
+  overflow-x: hidden;
 }
 </style>

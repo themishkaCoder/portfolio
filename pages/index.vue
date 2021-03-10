@@ -4,6 +4,8 @@
     <About />
     <Skills />
     <Works />
+    <Price />
+    <Contact />
   </div>
 </template>
 

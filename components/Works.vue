@@ -2,14 +2,14 @@
   <div class="work-background mx-auto my-20">
     <div class="container mx-auto py-20">
       <div class="works-title text-center">
-        <h2 class="text-xl text-purple pb-5">My works</h2>
-        <p class="text-3xl text-white font-bold">
+        <h2 data-aos="zoom-in" class="text-xl text-purple pb-5">My works</h2>
+        <p data-aos="zoom-in" class="text-3xl text-white font-bold">
           There are all my projects, from study start to nowdays.
         </p>
       </div>
 
-      <div class="grid grid-cols-2 grid-rows-4 pt-14">
-        <div class="work-item max-h-lg">
+      <div class="grid grid-cols-1 sm:grid-cols-2 grid-rows-8 sm:grid-rows-4 pt-14 gap-x-5">
+        <div data-aos="flip-up" class="work-item max-h-lg">
           <img src="../assets/prosecurity2.png" alt="" />
           <div class="description text-xl text-white text-center">
             <p class="text-3xl text-white font-bold">ProSecurity</p>
@@ -26,7 +26,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-down" class="work-item max-h-lg">
           <img src="../assets/tracker.png" alt="" />
           <div class="description text-xl text-white text-center">
             <p class="text-3xl text-white font-bold">Covid-19 tracker</p>
@@ -43,7 +43,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-up" class="work-item max-h-lg">
           <img src="../assets/freebie.jpg" alt="" />
           <div class="description text-xl text-white text-center">
             <p class="text-3xl text-white font-bold">Freebie</p>
@@ -57,7 +57,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-down" class="work-item max-h-lg">
           <img
             src="https://themishkacoder.github.io/portfolio/golden/images/port/news.jpg"
             alt=""
@@ -77,7 +77,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-up" class="work-item max-h-lg">
           <img
             src="https://themishkacoder.github.io/portfolio/golden/images/port/switch.jpg"
             alt=""
@@ -96,7 +96,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-down" class="work-item max-h-lg">
           <img
             src="https://themishkacoder.github.io/portfolio/golden/images/port/autistic.jpg"
             alt=""
@@ -115,7 +115,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-up" class="work-item max-h-lg">
           <img
             src="https://themishkacoder.github.io/portfolio/golden/images/port/menu.jpg"
             alt=""
@@ -134,7 +134,7 @@
           >
         </div>
 
-        <div class="work-item max-h-lg">
+        <div data-aos="flip-down" class="work-item">
           <img
             src="https://themishkacoder.github.io/portfolio/golden/images/port/freebie2.jpg"
             alt=""
@@ -164,8 +164,9 @@ export default {};
 
 <style lang="scss">
 .work-background {
-  background: url("../assets/works-background-final.jpg") no-repeat;
+  background: url("../assets/works-background-final.jpg") no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .work-item {
@@ -173,8 +174,12 @@ export default {};
   height: 100%;
   position: relative;
   overflow: hidden;
+  &:nth-child(even){
+    margin-top: 0;
+  }
   img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
   }
   .description {
@@ -231,6 +236,14 @@ export default {};
     .link {
       left: -20%;
       transition: 0.5s;
+    }
+  }
+}
+
+@media (min-width: 640px) { 
+  .work-item {
+    &:nth-child(even){
+      margin-top: 3rem;
     }
   }
 }

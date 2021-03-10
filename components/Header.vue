@@ -1,23 +1,29 @@
 <template>
-  <div class="background-img flex flex-col justify-between">
+  <div class="background-img h-screen flex flex-col justify-between relative">
     <div class="navigation p-8">
-      <h1 class="text-2xl font-bold text-white pl-8">theMishkaCoder</h1>
+      <h1 data-aos="fade-in" class="text-2xl font-bold text-white pl-8">theMishkaCoder</h1>
     </div>
 
-    <div class="text-section">
-      <p class="text-7xl text-white text-center">Mikhail Timoshenko</p>
+    <div data-aos="zoom-in" class="text-section">
+      <p class="text-6xl text-white text-center">Mikhail Timoshenko</p>
       <p class="text-2xl text-gray-200 text-center">Frontend Developer</p>
     </div>
-    <div class="buttons flex flex-row justify-center">
-      <button class="bg-purple-500 p-5 w-60 text-white">Price</button>
-      <button class="bg-gray-900 p-5 w-60 text-white">Skills</button>
 
+    <div class="buttons flex flex-row justify-center">
+      <button data-aos="slide-right" class="bg-purple-500 p-5 w-60 text-white">Price</button>
+      <button data-aos="slide-left" class="bg-gray-900 p-5 w-60 text-white">Skills</button>
+       <!-- <nuxt-link :to="{ path: '/', hash:'#skills'}">
+          TEST
+       </nuxt-link> -->
     </div>
+
     <div class="social pl-16 flex flex-col items-start">
-      <a class="text-2xl text-white pb-2" href=""><i class="fab fa-facebook-square"></i></a>
-      <a class="text-2xl text-white pb-2" href=""><i class="fab fa-instagram"></i></a>
-      <a class="text-2xl text-white pb-2" href=""><i class="fab fa-telegram"></i></a>
+      <a class="text-2xl text-white pb-2" href="https://www.facebook.com/profile.php?id=100008492881355" target="_blank"><i class="fab fa-facebook-square"></i></a>
+      <a class="text-2xl text-white pb-2" href="https://www.instagram.com/mishka_rider02/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a class="text-2xl text-white pb-2" href="https://t.me/themishkacoder" target="_blank"><i class="fab fa-telegram"></i></a>
     </div>
+
+    <button class="absolute right-5 bottom-5 text-5xl text-white animate-bounce"><i class="fas fa-long-arrow-alt-down"></i></button>
   </div>
 </template>
 
@@ -29,9 +35,9 @@ export default {
 
 <style lang="scss">
   .background-img {
-    background: url('../assets/header_background_final.jpg') no-repeat;
+    background: url('../assets/header_background_final.jpg') no-repeat center;
     background-size: cover;
-    height: 100vh;
-
+    background-attachment: fixed;
+    // height: 100vh;
   }
 </style>
