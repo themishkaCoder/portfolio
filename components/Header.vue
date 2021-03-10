@@ -10,8 +10,8 @@
     </div>
 
     <div class="buttons flex flex-row justify-center">
-      <button data-aos="slide-right" class="bg-purple-500 p-5 w-60 text-white">Price</button>
-      <button data-aos="slide-left" class="bg-gray-900 p-5 w-60 text-white">Skills</button>
+      <button @click="scrollPrice" data-aos="slide-right" class="bg-purple-500 p-5 w-60 text-white">Price</button>
+      <button @click="scrollSkills" data-aos="slide-left" class="bg-gray-900 p-5 w-60 text-white">Skills</button>
        <!-- <nuxt-link :to="{ path: '/', hash:'#skills'}">
           TEST
        </nuxt-link> -->
@@ -23,13 +23,26 @@
       <a class="text-2xl text-white pb-2" href="https://t.me/themishkacoder" target="_blank"><i class="fab fa-telegram"></i></a>
     </div>
 
-    <button class="absolute right-5 bottom-5 text-5xl text-white animate-bounce"><i class="fas fa-long-arrow-alt-down"></i></button>
+    <button @click="scrollAbout" class="absolute right-5 bottom-5 text-5xl text-white animate-bounce"><i class="fas fa-long-arrow-alt-down"></i></button>
   </div>
 </template>
 
 <script>
 export default {
-
+  methods:{
+    scrollSkills(){
+      let container = document.querySelector("#skills");
+      container.scrollIntoView({behavior: 'smooth'});
+    },
+    scrollPrice(){
+      let container = document.querySelector("#price");
+      container.scrollIntoView({behavior: 'smooth'});
+    },
+    scrollAbout(){
+      let container = document.querySelector("#about");
+      container.scrollIntoView({behavior: 'smooth'});
+    }
+  }
 }
 </script>
 

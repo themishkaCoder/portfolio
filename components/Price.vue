@@ -1,5 +1,5 @@
 <template>
-  <div class="background-img mx-auto mt-20">
+  <div class="background-img mx-auto mt-20" id="price">
     <div class="container mx-auto py-20">
       <p data-aos="fade-in" class="text-2xl text-white font-bold text-center mb-4">Price list</p>
       <div data-aos="flip-up" class="price-list bg-purple-800 bg-opacity-30 flex justify-center py-4 px-8">

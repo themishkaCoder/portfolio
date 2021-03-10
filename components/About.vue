@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-36 px-4">
+  <div class="container mx-auto py-36 px-4" id="about">
     <h2 data-aos="zoom-in" class="text-lg text-purple pb-5">About me</h2>
     <p data-aos="zoom-in" class="text-2xl text-white font-bold">
       I'm Junior Frontend Developer, involved in web programming for a 3 years
