@@ -31,8 +31,7 @@
           <div class="description text-xl text-white text-center">
             <p class="text-3xl text-white font-bold">Covid-19 tracker</p>
             <p class="text-xl text-white">
-              Commercial project providing security services. Created on clear
-              HTML and SCSS and installed in WordPress like a theme.
+              My own project to track Covid-19, created by using VueJs as PWA and REST API. 
             </p>
           </div>
           <a
