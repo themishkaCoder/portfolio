@@ -33,7 +33,7 @@
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            CSS/SCSS the same as HTML, i've been using it for 3 years.
+            CSS/SCSS the same high knowledge as HTML, i've been using it for 4 years.
           </p>
         </div>
       </div>
@@ -45,11 +45,11 @@
           >
             <p class="text-white text-2xl font-bold">3</p>
           </div>
-          <p class="text-white text-xl font-bold pl-4">Bootstrap 3/4</p>
+          <p class="text-white text-xl font-bold pl-4">Bootstrap 3/4, Tailwind</p>
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            Bootstrap is my main CSS framework, almost all my projects use it.
+            Bootstrap and Tailwind are my main CSS framework's, almost all my projects created by them.
           </p>
         </div>
       </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            This is my main JS framework, that i use for all my web application projects. I've been using it in 2 years, and using it for my best project - TeenAge
+            This is my main JS framework, that i use for all my web application projects. I've been using it in 3 years, and using it for my best pet project - TeenAge
           </p>
         </div>
       </div>
@@ -97,7 +97,7 @@
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            This site is created by Nuxt.js and Tailwind.css for educational purposes. Also, nuxt has some comfortable features, that vue doesn't has. I'm use it for big web application projects.
+            This site is created by Nuxt.js and Tailwind.css for educational purposes. Also, nuxt has comfortable features, that vue doesn't has. I'm use it for large web application's.
           </p>
         </div>
       </div>
@@ -113,7 +113,7 @@
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            I have experience with creating nodeJs servers/RestAPI using ExpressJs. Also, created a telegram bot, that search english dubbed/subbed anime for you. 
+            I have experience with creating nodeJs servers/RestAPI's using ExpressJs. Also, created a telegram bot, that search english dubbed/subbed anime. 
           </p>
         </div>
       </div>
@@ -129,7 +129,7 @@
         </div>
         <div class="service-text pt-6">
           <p class="text-gray-200">
-            This is my favorite service for web application, i often use Firebase Firestore to store a data. I used Firebase Authentication to create login/register functions for my projects, used Firebase Hosting to host app. Also i used Firebase Storage to store a photos of users.
+            This is my favorite service for web application, i often use Firebase Firestore to store a data. I used Firebase Authentication to create login/register functions for my projects and Firebase Hosting to host app. Also i used Firebase Storage to store a photos of users.
           </p>
         </div>
       </div>

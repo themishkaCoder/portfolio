@@ -4,7 +4,7 @@
       <div class="works-title text-center">
         <h2 data-aos="zoom-in" class="text-xl text-purple pb-5">My works</h2>
         <p data-aos="zoom-in" class="text-3xl text-white font-bold">
-          There are all my projects, from study start to nowdays.
+          There are all my projects, from start of study to nowdays.
         </p>
       </div>
 

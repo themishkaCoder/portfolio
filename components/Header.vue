@@ -1,11 +1,11 @@
 <template>
   <div class="background-img h-screen flex flex-col justify-between relative">
-    <div class="navigation p-8">
+    <div class="navigation flex justify-center sm:justify-start p-8">
       <h1 data-aos="fade-in" class="text-2xl font-bold text-white pl-8">theMishkaCoder</h1>
     </div>
 
     <div data-aos="zoom-in" class="text-section">
-      <p class="text-6xl text-white text-center">Mikhail Timoshenko</p>
+      <p class="text-5xl text-white text-center">Mikhail Timoshenko</p>
       <p class="text-2xl text-gray-200 text-center">Frontend Developer</p>
     </div>
 
