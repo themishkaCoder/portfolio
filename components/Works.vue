@@ -191,7 +191,7 @@ export default {};
   .link {
     position: absolute;
     bottom: 20px;
-    left: -20%;
+    left: -30%;
     z-index: 2;
   }
   &::after {
@@ -223,6 +223,23 @@ export default {};
       transition: 0.5s;
     }
   }
+  // &:focus {
+  //   &::after {
+  //     opacity: 1;
+  //     transition: 0.3s;
+  //   }
+  //   .description {
+  //     left: 50%;
+  //     transform: translate(-50%, 20%);
+  //     transition: 0.5s;
+  //   }
+  //   .link {
+  //     left: 50%;
+  //     transform: translate(-50%, 0);
+  //     transition: 0.5s;
+  //   }
+  // }
+
   &:not(:hover) {
     &::after {
       opacity: 0;
@@ -233,10 +250,24 @@ export default {};
       transition: 0.5s;
     }
     .link {
-      left: -20%;
+      left: -30%;
       transition: 0.5s;
     }
   }
+  // &:not(:focus) {
+  //   &::after {
+  //     opacity: 0;
+  //     transition: 0.3s;
+  //   }
+  //   .description {
+  //     left: 120%;
+  //     transition: 0.5s;
+  //   }
+  //   .link {
+  //     left: -30%;
+  //     transition: 0.5s;
+  //   }
+  // }
 }
 
 @media (min-width: 640px) { 

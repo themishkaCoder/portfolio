@@ -17,5 +17,8 @@ export default {}
 *{
   font-family: 'Montserrat', sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 
 </style>

@@ -20,6 +20,9 @@ export default {
     script: [
       { src: 'https://kit.fontawesome.com/652b1d332c.js', crossorigin: "anonymous" }
     ],
+    bodyAttrs:{
+      ontouchstart: '',
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
