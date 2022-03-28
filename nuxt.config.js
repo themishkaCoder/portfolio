@@ -1,4 +1,9 @@
 export default {
+    // Disable server-side rendering (https://go.nuxtjs.dev/ssr-mode)
+    // ssr: false,
+
+    // Target (https://go.nuxtjs.dev/config-target)
+    // target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'portfolio',
@@ -26,9 +31,10 @@ export default {
   plugins: [
     {
       src: '@/plugins/aos.js',
-      mode: 'client'
+      ssr: false,
     }
   ],
+  // target: 'static',
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -55,5 +61,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+  purgeCSS: { whitelist: [ "aos-init", "aos-animate", "data-aos-delay", "data-aos-duration", "fade-up", "fade-left", "fade-right", "flip-left", ], }
 }
