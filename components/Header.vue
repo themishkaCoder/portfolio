@@ -49,7 +49,7 @@ export default {
 <style lang="scss">
   .background-img {
     background: url('../assets/header_background_final.jpg') no-repeat center;
-    background-size: cover;
+    // background-size: cover;
     background-attachment: fixed;
     // height: 100vh;
   }
