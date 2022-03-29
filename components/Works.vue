@@ -16,10 +16,11 @@
             <p class="text-xl text-white">
               Commercial project providing security services. Created on clear
               HTML and SCSS and installed in WordPress like a theme.
+              (left only github version of layout)
             </p>
           </div>
           <a
-            href="https://prosecurity.kiev.ua/"
+            href="https://themishkacoder.github.io/prosecurity/"
             class="link text-xl text-white"
             target="_blank"
             >Link to view</a
