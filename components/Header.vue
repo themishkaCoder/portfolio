@@ -5,7 +5,7 @@
     </div>
 
     <div data-aos="zoom-in" class="text-section">
-      <p class="text-5xl text-white text-center">Mikhail Timoshenko</p>
+      <p class="text-5xl text-white text-center">Mykhailo Tymoshenko</p>
       <p class="text-2xl text-gray-200 text-center">Frontend Developer</p>
     </div>
 
