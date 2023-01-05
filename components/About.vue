@@ -11,9 +11,10 @@
       for a 3 years, at this moment have several own projects and commercial
       experience. English level - intermediate. My hobby is extreme bmx riding.
       It would be good to meet and work with new people for me -->
-      Hello, my name is Mikhail, i am 17 years old. Graduated from IT Step academy(4 years) and worked with mentor. 
+      Hello, my name is Mykhailo, i am 18 years old. Graduated from IT Step academy(4 years) and worked with mentor. 
       In front-end development from 13 years. English level - intermediate. I have several, completed, commercial freelance 
       projects, also i have my pet projects. <br>
+      I'm open for work and my front-end skills have been proven sufficient for commercial development. I'm currently living in Slovakia as I've been displaced by the war, thus I don't live with my family and will review all job opportunities.<br>
       My skills: HTML, CSS/SCSS, Tailwind, Bootstrap 3/4/5, Photoshop, JavaScript ES6+, 
       Jquery, Gulp, Git, Vue.js, Nuxt.js, Quasar Framework, Node.js, Firebase, REST APIs. 
       My main front-end framework is Vue.js and favorite css framework is Tailwind.
